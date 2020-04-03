@@ -56,6 +56,9 @@ What is the naming convention for planes or layers?
 #define PLANE_SPACE -95
 #define PLANE_SPACE_PARALLAX -80
 
+#define PLANE_LOOKINGGLASS		-78 // For the Looking Glass holodecks
+#define PLANE_LOOKINGGLASS_IMG	-77 // For the Looking Glass holodecks
+
 #define OPENSPACE_PLANE -10
 #define OVER_OPENSPACE_PLANE -8
 
