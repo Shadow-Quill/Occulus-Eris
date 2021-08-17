@@ -29,6 +29,11 @@
 	replace_limb = /obj/item/organ/external/robotic/xion
 	prosthetic_model = "xion"
 
+/datum/body_modification/limb/prosthesis/morpheus
+	id = "prosthesis_morpheus"
+	body_parts = PROSTHESIS_FULL
+	replace_limb = /obj/item/organ/external/robotic/morpheus
+	prosthetic_model = "morpheus"
 /datum/body_modification/limb/prosthesis/tv_head
 	id = "tv_head"
 	body_parts = list(BP_HEAD)

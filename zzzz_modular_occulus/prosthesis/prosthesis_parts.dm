@@ -111,6 +111,14 @@ CREATE_PROSTHESIS_VARIETIES_FULL(zenghu, "Zeng-Hu")
 
 CREATE_PROSTHESIS_VARIETIES_FULL(xion, "Xion")
 
+/obj/item/organ/external/robotic/morpheus
+	name = "Morpheus"
+	desc = "MrCrabs --- Change me"
+	force_icon = 'zzzz_modular_occulus/icons/mob/human_races/cyberlimbs/morpheus/morpheus_main.dmi'
+	price_tag = 250
+
+CREATE_PROSTHESIS_VARIETIES_FULL(morpheus, "morpheus")
+
 //ERIS PROSTHESIS OVERRIDES GO HERE
 
 /obj/item/organ/external/robotic/asters

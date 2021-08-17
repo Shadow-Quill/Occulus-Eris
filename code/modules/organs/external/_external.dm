@@ -120,6 +120,7 @@
 	src.surgery_name = desc.surgery_name
 	src.organ_tag = desc.organ_tag
 	src.body_part = desc.body_part
+	src.icon_position = desc.body_part // Occulus Edit - FIXES LEG LAYERING 
 	src.parent_organ_base = desc.parent_organ_base
 	src.default_bone_type = desc.default_bone_type
 
