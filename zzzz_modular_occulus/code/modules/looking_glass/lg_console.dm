@@ -8,7 +8,7 @@
 	var/static/list/supported_programs = list()
 	var/static/list/secret_programs = list()
 
-	use_power = USE_POWER_IDLE
+	use_power = IDLE_POWER_USE
 	active_power_usage = 8000
 
 	var/current_program = "Off"
@@ -77,7 +77,7 @@
 	else
 		data["gravity"] = null
 
-	ui = SSnanoui.try_update_ui(user, src, ui_key, ui, data, force_open)
+	ui = SSnano.try_update_ui(user, src, ui_key, ui, data, force_open)
 	if (!ui)
 		ui = new(user, src, ui_key, "lookingglass.tmpl", src.name, 400, 550)
 		ui.set_initial_data(data)
@@ -111,7 +111,7 @@
 
 		src.add_fingerprint(usr)
 
-	SSnanoui.update_uis(src)
+	SSnano.update_uis(src)
 
 /obj/machinery/computer/looking_glass/emag_act(var/remaining_charges, var/mob/user as mob)
 	if (!emagged)
@@ -124,7 +124,7 @@
 
 /obj/machinery/computer/looking_glass/proc/load_program(var/prog_name)
 	ready = FALSE
-	VARSET_IN(src, ready, TRUE, 10 SECONDS)
+	addtimer(CALLBACK(src, .proc/make_ready), 10 SECONDS)
 
 	if(prog_name in supported_programs)
 		my_area.begin_program(supported_programs[prog_name])
@@ -133,9 +133,12 @@
 
 /obj/machinery/computer/looking_glass/proc/unload_program()
 	ready = FALSE
-	VARSET_IN(src, ready, TRUE, 10 SECONDS)
+	addtimer(CALLBACK(src, .proc/make_ready), 10 SECONDS)
 
 	my_area.end_program()
+
+/obj/machinery/computer/looking_glass/proc/make_ready()
+	ready = TRUE
 
 /obj/machinery/computer/looking_glass/proc/toggle_gravity(var/area/A)
 	if(world.time < (last_gravity_change + 3 SECONDS))
@@ -147,9 +150,10 @@
 	last_gravity_change = world.time
 
 	if(A.has_gravity)
-		A.gravitychange(0)
+		A.has_gravity = FALSE
 	else
-		A.gravitychange(1)
+		A.has_gravity = TRUE
+	A.update_gravity()
 
 //This could all be done better, but it works for now.
 /obj/machinery/computer/looking_glass/Destroy()
