@@ -9096,7 +9096,9 @@
 /turf/simulated/floor/tiled/dark/techfloor_grid,
 /area/eris/neotheology/storage)
 "awt" = (
-/turf/simulated/floor/looking_glass/center,
+/turf/simulated/floor/looking_glass{
+	dir = 8
+	},
 /area/looking_glass/lg_1)
 "awu" = (
 /obj/machinery/atmospherics/unary/vent_scrubber/on,
@@ -101326,6 +101328,11 @@
 /obj/spawner/junk/low_chance,
 /turf/simulated/floor/tiled/dark/techfloor,
 /area/eris/security/prison)
+"fvT" = (
+/turf/simulated/floor/looking_glass{
+	dir = 10
+	},
+/area/looking_glass/lg_1)
 "fxk" = (
 /obj/structure/table/standard,
 /obj/item/clipboard,
@@ -103573,9 +103580,6 @@
 /obj/effect/shuttle_landmark/merc/sec3east5,
 /turf/space,
 /area/space)
-"iJM" = (
-/turf/simulated/floor/looking_glass/optional,
-/area/looking_glass/lg_1)
 "iKd" = (
 /obj/machinery/atmospherics/unary/vent_scrubber/on,
 /obj/machinery/alarm{
@@ -104447,11 +104451,6 @@
 	},
 /turf/simulated/floor/tiled/white/brown_platform,
 /area/eris/medical/chemistry)
-"kbV" = (
-/turf/simulated/floor/looking_glass{
-	dir = 10
-	},
-/area/looking_glass/lg_1)
 "kcK" = (
 /obj/machinery/floor_light/prebuilt{
 	color = "#8F00FF";
@@ -104965,11 +104964,6 @@
 /obj/spawner/junk/low_chance,
 /turf/simulated/floor/tiled/white/brown_perforated,
 /area/eris/hallway/main/section3)
-"kPs" = (
-/turf/simulated/floor/looking_glass{
-	dir = 8
-	},
-/area/looking_glass/lg_1)
 "kSm" = (
 /obj/machinery/portable_atmospherics/canister,
 /turf/simulated/floor/plating/under,
@@ -106514,11 +106508,6 @@
 	},
 /turf/simulated/floor/tiled/steel/cargo,
 /area/eris/elevator)
-"mSy" = (
-/turf/simulated/floor/looking_glass{
-	dir = 9
-	},
-/area/looking_glass/lg_1)
 "mTJ" = (
 /obj/structure/lattice,
 /obj/structure/railing/grey,
@@ -108043,6 +108032,9 @@
 /obj/spawner/scrap/sparse,
 /turf/simulated/floor/tiled/steel/gray_perforated,
 /area/eris/maintenance/section2deck1port)
+"oNE" = (
+/turf/simulated/floor/looking_glass/optional,
+/area/looking_glass/lg_1)
 "oNK" = (
 /obj/structure/table/glass,
 /obj/item/reagent_containers/spray/sterilizine,
@@ -108403,6 +108395,11 @@
 	},
 /turf/simulated/floor/tiled/white,
 /area/eris/medical/reception)
+"pky" = (
+/turf/simulated/floor/looking_glass{
+	dir = 9
+	},
+/area/looking_glass/lg_1)
 "pkU" = (
 /obj/machinery/light/small,
 /obj/machinery/portable_atmospherics/canister/phoron,
@@ -110001,6 +109998,11 @@
 	},
 /turf/simulated/floor/tiled/steel,
 /area/eris/quartermaster/hangarsupply)
+"rFs" = (
+/turf/simulated/floor/looking_glass/optional{
+	dir = 4
+	},
+/area/looking_glass/lg_1)
 "rGs" = (
 /obj/structure/cable/green{
 	d1 = 4;
@@ -110239,10 +110241,6 @@
 "rYg" = (
 /turf/simulated/floor/tiled/steel/gray_perforated,
 /area/eris/engineering/breakroom)
-"rYH" = (
-/obj/effect/landmark/looking_glass,
-/turf/simulated/floor/looking_glass/center,
-/area/looking_glass/lg_1)
 "rZh" = (
 /obj/spawner/scrap/dense,
 /obj/structure/railing{
@@ -112303,11 +112301,6 @@
 	},
 /turf/simulated/floor/plating/under,
 /area/eris/maintenance/section3deck4central)
-"uQj" = (
-/turf/simulated/floor/looking_glass/optional{
-	dir = 1
-	},
-/area/looking_glass/lg_1)
 "uRl" = (
 /obj/machinery/button/remote/elevator_panel{
 	id = "ElevatorDorms";
@@ -112657,11 +112650,6 @@
 /obj/item/material/shard,
 /turf/simulated/floor/tiled/techmaint,
 /area/eris/maintenance/section3deck1central)
-"vst" = (
-/turf/simulated/floor/looking_glass/optional{
-	dir = 4
-	},
-/area/looking_glass/lg_1)
 "vtk" = (
 /obj/machinery/door/airlock/multi_tile/metal{
 	dir = 2
@@ -112964,6 +112952,10 @@
 	},
 /turf/simulated/floor/tiled/steel/brown_platform,
 /area/eris/quartermaster/storage)
+"vVj" = (
+/obj/effect/landmark/looking_glass,
+/turf/simulated/floor/looking_glass/center,
+/area/looking_glass/lg_1)
 "vXL" = (
 /obj/structure/lattice,
 /obj/structure/railing/grey{
@@ -113323,6 +113315,11 @@
 	},
 /turf/simulated/floor/tiled/steel,
 /area/eris/rnd/anomal)
+"wDb" = (
+/turf/simulated/floor/looking_glass/optional{
+	dir = 1
+	},
+/area/looking_glass/lg_1)
 "wDx" = (
 /obj/machinery/camera/network/third_section{
 	dir = 1
@@ -114217,6 +114214,9 @@
 /obj/spawner/firstaid/low_chance,
 /turf/simulated/floor/tiled/white/brown_platform,
 /area/eris/maintenance/section2deck3port)
+"xOD" = (
+/turf/simulated/floor/looking_glass/center,
+/area/looking_glass/lg_1)
 "xON" = (
 /obj/structure/railing{
 	dir = 4
@@ -250988,16 +250988,16 @@ cDD
 awr
 cDL
 qVj
-mSy
-kPs
-kPs
-kPs
-kPs
-kPs
-kPs
-kPs
-kPs
-kbV
+pky
+awt
+awt
+awt
+awt
+awt
+awt
+awt
+awt
+fvT
 qVj
 eFr
 eFs
@@ -251190,16 +251190,16 @@ cHX
 cRH
 cDM
 dxq
-uQj
-awt
-awt
-awt
-awt
-awt
-awt
-awt
-awt
-iJM
+wDb
+xOD
+xOD
+xOD
+xOD
+xOD
+xOD
+xOD
+xOD
+oNE
 dxq
 hmo
 kDs
@@ -251392,16 +251392,16 @@ awr
 awr
 cDN
 dxq
-uQj
-awt
-awt
-awt
-awt
-awt
-awt
-awt
-awt
-iJM
+wDb
+xOD
+xOD
+xOD
+xOD
+xOD
+xOD
+xOD
+xOD
+oNE
 dxq
 eFt
 eFx
@@ -251594,16 +251594,16 @@ cVY
 awr
 pgf
 dxq
-uQj
-awt
-awt
-awt
-awt
-awt
-awt
-awt
-awt
-iJM
+wDb
+xOD
+xOD
+xOD
+xOD
+xOD
+xOD
+xOD
+xOD
+oNE
 awr
 aym
 hEH
@@ -251796,16 +251796,16 @@ cHX
 cXn
 tLp
 dxq
-uQj
-awt
-awt
-awt
-awt
-rYH
-awt
-awt
-awt
-iJM
+wDb
+xOD
+xOD
+xOD
+xOD
+vVj
+xOD
+xOD
+xOD
+oNE
 dxq
 eFr
 axW
@@ -251998,16 +251998,16 @@ awr
 awr
 kpJ
 dxq
-uQj
-awt
-awt
-awt
-awt
-awt
-awt
-awt
-awt
-iJM
+wDb
+xOD
+xOD
+xOD
+xOD
+xOD
+xOD
+xOD
+xOD
+oNE
 dxq
 hmo
 eFE
@@ -252200,16 +252200,16 @@ djI
 dHq
 tLp
 dxq
-uQj
-awt
-awt
-awt
-awt
-awt
-awt
-awt
-awt
-iJM
+wDb
+xOD
+xOD
+xOD
+xOD
+xOD
+xOD
+xOD
+xOD
+oNE
 dxq
 eFt
 eFE
@@ -252402,16 +252402,16 @@ iAL
 awr
 kIX
 dxq
-uQj
-awt
-awt
-awt
-awt
-awt
-awt
-awt
-awt
-iJM
+wDb
+xOD
+xOD
+xOD
+xOD
+xOD
+xOD
+xOD
+xOD
+oNE
 awr
 rNF
 eFE
@@ -252604,16 +252604,16 @@ awr
 awr
 cDN
 qVj
-uQj
-vst
-vst
-vst
-vst
-vst
-vst
-vst
-vst
-iJM
+wDb
+rFs
+rFs
+rFs
+rFs
+rFs
+rFs
+rFs
+rFs
+oNE
 qVj
 hmo
 ayp
