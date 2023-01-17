@@ -9096,9 +9096,7 @@
 /turf/simulated/floor/tiled/dark/techfloor_grid,
 /area/eris/neotheology/storage)
 "awt" = (
-/turf/simulated/floor/looking_glass{
-	dir = 8
-	},
+/turf/simulated/floor/looking_glass/center,
 /area/looking_glass/lg_1)
 "awu" = (
 /obj/machinery/atmospherics/unary/vent_scrubber/on,
@@ -100957,6 +100955,11 @@
 	},
 /turf/simulated/floor/tiled/dark,
 /area/eris/medical/reception)
+"eVN" = (
+/turf/simulated/floor/looking_glass{
+	dir = 10
+	},
+/area/looking_glass/lg_1)
 "eWj" = (
 /obj/structure/table/rack,
 /obj/item/ammo_magazine/magnum/rubber,
@@ -101277,6 +101280,11 @@
 /obj/item/stool,
 /turf/simulated/floor/carpet,
 /area/eris/maintenance/section4deck4central)
+"fss" = (
+/turf/simulated/floor/looking_glass{
+	dir = 9
+	},
+/area/looking_glass/lg_1)
 "ftf" = (
 /obj/structure/cable/green{
 	d2 = 2;
@@ -101328,11 +101336,6 @@
 /obj/spawner/junk/low_chance,
 /turf/simulated/floor/tiled/dark/techfloor,
 /area/eris/security/prison)
-"fvT" = (
-/turf/simulated/floor/looking_glass{
-	dir = 10
-	},
-/area/looking_glass/lg_1)
 "fxk" = (
 /obj/structure/table/standard,
 /obj/item/clipboard,
@@ -108032,9 +108035,6 @@
 /obj/spawner/scrap/sparse,
 /turf/simulated/floor/tiled/steel/gray_perforated,
 /area/eris/maintenance/section2deck1port)
-"oNE" = (
-/turf/simulated/floor/looking_glass/optional,
-/area/looking_glass/lg_1)
 "oNK" = (
 /obj/structure/table/glass,
 /obj/item/reagent_containers/spray/sterilizine,
@@ -108350,6 +108350,9 @@
 /obj/structure/disposalpipe/segment,
 /turf/simulated/floor/tiled/white,
 /area/eris/medical/reception)
+"pfu" = (
+/turf/simulated/floor/looking_glass/optional,
+/area/looking_glass/lg_1)
 "pgf" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
@@ -108362,6 +108365,10 @@
 	},
 /turf/simulated/floor/wood,
 /area/eris/crew_quarters/fitness)
+"pgz" = (
+/obj/effect/landmark/looking_glass,
+/turf/simulated/floor/looking_glass/center,
+/area/looking_glass/lg_1)
 "pha" = (
 /obj/machinery/door/airlock/maintenance_common{
 	name = "Service Maintenance";
@@ -108395,11 +108402,6 @@
 	},
 /turf/simulated/floor/tiled/white,
 /area/eris/medical/reception)
-"pky" = (
-/turf/simulated/floor/looking_glass{
-	dir = 9
-	},
-/area/looking_glass/lg_1)
 "pkU" = (
 /obj/machinery/light/small,
 /obj/machinery/portable_atmospherics/canister/phoron,
@@ -109998,11 +110000,6 @@
 	},
 /turf/simulated/floor/tiled/steel,
 /area/eris/quartermaster/hangarsupply)
-"rFs" = (
-/turf/simulated/floor/looking_glass/optional{
-	dir = 4
-	},
-/area/looking_glass/lg_1)
 "rGs" = (
 /obj/structure/cable/green{
 	d1 = 4;
@@ -111384,6 +111381,11 @@
 /obj/structure/table/woodentable,
 /turf/simulated/floor/carpet/bcarpet,
 /area/eris/crew_quarters/fitness)
+"tuS" = (
+/turf/simulated/floor/looking_glass{
+	dir = 8
+	},
+/area/looking_glass/lg_1)
 "tvw" = (
 /obj/structure/bed/chair{
 	dir = 4
@@ -111509,6 +111511,11 @@
 	},
 /turf/simulated/floor/tiled/white/brown_perforated,
 /area/eris/medical/genetics_cloning)
+"tCi" = (
+/turf/simulated/floor/looking_glass/optional{
+	dir = 4
+	},
+/area/looking_glass/lg_1)
 "tDD" = (
 /obj/machinery/door/firedoor,
 /obj/effect/window_lwall_spawn/smartspawn,
@@ -112229,6 +112236,11 @@
 /obj/structure/low_wall,
 /turf/simulated/floor/plating,
 /area/eris/crew_quarters/bar)
+"uME" = (
+/turf/simulated/floor/looking_glass/optional{
+	dir = 1
+	},
+/area/looking_glass/lg_1)
 "uNl" = (
 /obj/machinery/light{
 	dir = 4
@@ -112952,10 +112964,6 @@
 	},
 /turf/simulated/floor/tiled/steel/brown_platform,
 /area/eris/quartermaster/storage)
-"vVj" = (
-/obj/effect/landmark/looking_glass,
-/turf/simulated/floor/looking_glass/center,
-/area/looking_glass/lg_1)
 "vXL" = (
 /obj/structure/lattice,
 /obj/structure/railing/grey{
@@ -113315,11 +113323,6 @@
 	},
 /turf/simulated/floor/tiled/steel,
 /area/eris/rnd/anomal)
-"wDb" = (
-/turf/simulated/floor/looking_glass/optional{
-	dir = 1
-	},
-/area/looking_glass/lg_1)
 "wDx" = (
 /obj/machinery/camera/network/third_section{
 	dir = 1
@@ -114214,9 +114217,6 @@
 /obj/spawner/firstaid/low_chance,
 /turf/simulated/floor/tiled/white/brown_platform,
 /area/eris/maintenance/section2deck3port)
-"xOD" = (
-/turf/simulated/floor/looking_glass/center,
-/area/looking_glass/lg_1)
 "xON" = (
 /obj/structure/railing{
 	dir = 4
@@ -250988,16 +250988,16 @@ cDD
 awr
 cDL
 qVj
-pky
-awt
-awt
-awt
-awt
-awt
-awt
-awt
-awt
-fvT
+fss
+tuS
+tuS
+tuS
+tuS
+tuS
+tuS
+tuS
+tuS
+eVN
 qVj
 eFr
 eFs
@@ -251190,16 +251190,16 @@ cHX
 cRH
 cDM
 dxq
-wDb
-xOD
-xOD
-xOD
-xOD
-xOD
-xOD
-xOD
-xOD
-oNE
+uME
+awt
+awt
+awt
+awt
+awt
+awt
+awt
+awt
+pfu
 dxq
 hmo
 kDs
@@ -251392,16 +251392,16 @@ awr
 awr
 cDN
 dxq
-wDb
-xOD
-xOD
-xOD
-xOD
-xOD
-xOD
-xOD
-xOD
-oNE
+uME
+awt
+awt
+awt
+awt
+awt
+awt
+awt
+awt
+pfu
 dxq
 eFt
 eFx
@@ -251594,16 +251594,16 @@ cVY
 awr
 pgf
 dxq
-wDb
-xOD
-xOD
-xOD
-xOD
-xOD
-xOD
-xOD
-xOD
-oNE
+uME
+awt
+awt
+awt
+awt
+awt
+awt
+awt
+awt
+pfu
 awr
 aym
 hEH
@@ -251796,16 +251796,16 @@ cHX
 cXn
 tLp
 dxq
-wDb
-xOD
-xOD
-xOD
-xOD
-vVj
-xOD
-xOD
-xOD
-oNE
+uME
+awt
+awt
+awt
+awt
+pgz
+awt
+awt
+awt
+pfu
 dxq
 eFr
 axW
@@ -251998,16 +251998,16 @@ awr
 awr
 kpJ
 dxq
-wDb
-xOD
-xOD
-xOD
-xOD
-xOD
-xOD
-xOD
-xOD
-oNE
+uME
+awt
+awt
+awt
+awt
+awt
+awt
+awt
+awt
+pfu
 dxq
 hmo
 eFE
@@ -252200,16 +252200,16 @@ djI
 dHq
 tLp
 dxq
-wDb
-xOD
-xOD
-xOD
-xOD
-xOD
-xOD
-xOD
-xOD
-oNE
+uME
+awt
+awt
+awt
+awt
+awt
+awt
+awt
+awt
+pfu
 dxq
 eFt
 eFE
@@ -252402,16 +252402,16 @@ iAL
 awr
 kIX
 dxq
-wDb
-xOD
-xOD
-xOD
-xOD
-xOD
-xOD
-xOD
-xOD
-oNE
+uME
+awt
+awt
+awt
+awt
+awt
+awt
+awt
+awt
+pfu
 awr
 rNF
 eFE
@@ -252604,16 +252604,16 @@ awr
 awr
 cDN
 qVj
-wDb
-rFs
-rFs
-rFs
-rFs
-rFs
-rFs
-rFs
-rFs
-oNE
+uME
+tCi
+tCi
+tCi
+tCi
+tCi
+tCi
+tCi
+tCi
+pfu
 qVj
 hmo
 ayp
