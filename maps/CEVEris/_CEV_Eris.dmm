@@ -103077,6 +103077,11 @@
 /obj/structure/disposalpipe/segment,
 /turf/simulated/floor/tiled/white/cargo,
 /area/eris/medical/reception)
+"hYW" = (
+/turf/simulated/floor/looking_glass/optional{
+	dir = 6
+	},
+/area/looking_glass/lg_1)
 "iaa" = (
 /obj/effect/floor_decal/industrial/warning/dust{
 	dir = 8
@@ -110218,6 +110223,11 @@
 	},
 /turf/simulated/floor/tiled/white,
 /area/eris/medical/patient_b)
+"rWs" = (
+/turf/simulated/floor/looking_glass/optional{
+	dir = 5
+	},
+/area/looking_glass/lg_1)
 "rWu" = (
 /obj/structure/railing,
 /turf/simulated/floor/plating/under,
@@ -252604,7 +252614,7 @@ awr
 awr
 cDN
 qVj
-uME
+rWs
 tCi
 tCi
 tCi
@@ -252613,7 +252623,7 @@ tCi
 tCi
 tCi
 tCi
-pfu
+hYW
 qVj
 hmo
 ayp

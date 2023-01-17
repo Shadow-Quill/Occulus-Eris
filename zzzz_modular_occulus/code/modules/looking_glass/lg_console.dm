@@ -29,18 +29,14 @@
 		testing("Looking glass console [x],[y],[x] not in a looking glass area.")
 	if(!supported_programs.len)
 		supported_programs["Off"] = null
-		supported_programs["Diagnostics"] = image(icon = 'icons/skybox/skybox.dmi', icon_state = "diagnostic")
-		supported_programs["Space 1"] = image(icon = 'icons/skybox/skybox.dmi', icon_state = "space1")
-		supported_programs["Space 2"] = image(icon = 'icons/skybox/skybox.dmi', icon_state = "space2")
-		supported_programs["Space 3"] = image(icon = 'icons/skybox/skybox.dmi', icon_state = "space3")
-		supported_programs["Space 4"] = image(icon = 'icons/skybox/skybox.dmi', icon_state = "space4")
-		supported_programs["Space 5"] = image(icon = 'icons/skybox/skybox.dmi', icon_state = "space5")
-		supported_programs["Space 6"] = image(icon = 'icons/skybox/skybox.dmi', icon_state = "space6")
-
-		secret_programs["Maw"] = image(icon = 'icons/skybox/skybox_vr.dmi', icon_state = "maw")
-		secret_programs["Flesh"] = image(icon = 'icons/skybox/skybox_vr.dmi', icon_state = "flesh")
-		secret_programs["Synth Int"] = image(icon = 'icons/skybox/skybox_vr.dmi', icon_state = "synthinsides")
-		secret_programs["Synth Int 2"] = image(icon = 'icons/skybox/skybox_vr.dmi', icon_state = "synthinsides_active")
+		supported_programs["Diagnostics"] = image(icon = 'icons/parallax.dmi', icon_state = "diagnostic")
+		supported_programs["Space 1"] = image(icon = 'icons/parallax.dmi', icon_state = "space0")
+		supported_programs["Space 2"] = image(icon = 'icons/parallax.dmi', icon_state = "space1")
+		supported_programs["Space 3"] = image(icon = 'icons/parallax.dmi', icon_state = "space2")
+		supported_programs["Space 4"] = image(icon = 'icons/parallax.dmi', icon_state = "space3")
+		supported_programs["Space 5"] = image(icon = 'icons/parallax.dmi', icon_state = "space4")
+		supported_programs["Space 6"] = image(icon = 'icons/parallax.dmi', icon_state = "space5")
+		supported_programs["Space 7"] = image(icon = 'icons/parallax.dmi', icon_state = "space6")
 
 /obj/machinery/computer/looking_glass/Destroy()
 	my_area = null
